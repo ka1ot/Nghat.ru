@@ -1,0 +1,33 @@
+/* Для Ipad mini/pro/air*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    .hat{
+        height: 10vw; 
+    }
+    .logo-img-hat,.logo-settings{
+        width: 15vw;
+    }
+    .InHatPool,.InFooterPool{
+        height: 9.5vw;
+    }
+    .logo-text-hat p{
+        font-size: 12vw;
+        margin-top: -1.2vw;
+    }  
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    .hat{
+        height: 10vw; 
+    }
+    .logo-img-hat,.logo-settings{
+        width: 15vw;
+    }
+    .InHatPool,.InFooterPool{
+        height: 9.5vw;
+    }
+    .logo-text-hat p{
+        font-size: 12vw;
+        margin-top: -1.2vw;
+    }
+}

@@ -1,0 +1,114 @@
+@font-face {
+ font-family: "Passion One";
+ src: url(../fonts/PassionOne-Black.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #fffdf1;
+    background-image: url(../Image/BACK.png);
+    background-size: 60vw;
+}
+
+.hat{
+    width: 100vw;
+    background-color: white;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+.footer{
+    width: 100vw;
+    background-color: white;
+    box-sizing: border-box;
+    border-top: 1px solid black; 
+}
+
+.InHatPool,.InFooterPool{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    padding-top: 0.25vw;
+    width: 98vw;
+}
+
+
+.logo-text-hat p{
+    font-family: 'Passion One', cursive; 
+}
+
+.body{
+    height: 1000px;
+    width: 100vw;
+}
+
+.hat-menu{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    right: 0vw;
+}
+
+.light,.en-ru{
+    justify-content: space-between;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tumbler{
+    height: 1vw;
+    width: 2vw;
+    background-color: cyan;
+    box-shadow: inset 0px 0px 5px 0px black;
+    margin-top: 0.4vw;
+}
+
+.ball-tumbler{
+    width: 0.8vw;
+    height: 0.8vw;
+    background-color: green;
+    border: 0.1vw solid black;
+}
+
+#lang{
+    line-height: 2px;
+}
+
+#light,#lang-change{
+    display: flex;
+}
+
+.main-info{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
+    margin-top: 20vw;
+}
+
+.info-and-photo-person{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+}
+
+.Personal-Photo{
+    height: 20vw;
+    width: 15vw;
+    border: 2px solid black;
+}
+
+.Personal-Information{
+    width: 40vw;
+    border: 2px solid red;
+}
+
+a{
+    text-align: left;
+    line-height: 2vw; 
+}

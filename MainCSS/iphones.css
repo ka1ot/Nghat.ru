@@ -1,0 +1,64 @@
+/* Для Телефонов Apple*/
+
+/* 4,4s,5,5c,5s,6,6+,6S,SE,7,8 */
+
+@media only screen and (min-device-width: 280px) and (max-device-height: 800px) and (orientation : portrait){
+    .hat{
+        height: 17vw;
+    }
+    .logo-img-hat,.logo-settings{
+        width: 16.5vw;
+    }
+    .InHatPool,.InFooterPool{
+        height: 16.5vw;
+    }
+    .logo-text-hat p{
+        font-size: 16vw;
+        margin-top: -0.5vw;
+    }
+    .light,.en-ru{
+        width: 30vw;
+    }
+}
+/* 6s+,7+,8+,x,xs, 11 pro */    
+
+@media all and (min-device-width: 375px) and (max-device-height: 850px) and (orientation : portrait){
+    .hat{
+        height: 17vw;
+    }
+    .logo-img-hat,.logo-settings{
+        width: 18vw;
+    }
+    .InHatPool,.InFooterPool{
+        height: 16.5vw;
+    }
+    .logo-text-hat p{
+        font-size: 12vw;
+        margin-top: -1.2vw;
+    }
+    .light,.en-ru{
+        width: 30vw;
+    }
+}
+
+/*xs-max, xr,11, 11pro max, 12 mini, 12, 12 pro max, 13, 13 mini, 13 pro max*/ 
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 1000px) and (orientation : portrait) {
+    .hat{
+        height: 18vw;
+    }
+    .logo-img-hat,.logo-settings{
+        width: 17.5vw;
+    }
+    .InHatPool,.InFooterPool{
+        height: 17.5vw;
+    }
+    .logo-text-hat p{
+        font-size: 19vw;
+        margin-top: -1.2vw;
+    }
+    .light,.en-ru{
+        width: 30vw;
+    }
+}
+

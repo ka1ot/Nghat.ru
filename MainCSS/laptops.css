@@ -1,0 +1,81 @@
+/* Для Пк*/
+
+@media only screen and (min-device-width: 1280px) and (max-device-height: 800px){
+    .hat,.InFooterPool{
+        height: 5.5vw;
+    }
+
+    .logo-img-hat,.logo-settings{
+        width: 5vw;
+    }
+    .InHatPool,.InFooterPool{
+        height: 5vw;
+    }
+    .logo-text-hat p{
+        font-size: 5vw;
+        margin-top: -0vw;
+    }
+    .light,.en-ru{
+        width: 8vw;
+    }
+}
+
+@media only screen and (min-device-width: 1366px){
+    .hat,.InFooterPool{
+        height: 4.5vw; 
+    }
+    .logo-img-hat,.logo-settings{
+        width: 4vw;
+    }
+    .InHatPool,.InFooterPool{
+        height: 4vw;
+    }
+    .logo-text-hat p{
+        font-size: 4vw;
+        margin-top: 0vw;
+    }
+    .light,.en-ru{
+        width: 8vw;
+    }
+}
+
+/* Для ноутбуков*/
+
+@media only screen and (min-device-width: 640px) and (max-device-height: 480px){
+    .hat,.InFooterPool{
+        height: 6vw; 
+    }
+    .logo-img-hat,.logo-settings{
+        width: 6.5vw;
+    }
+    .InHatPool,.InFooterPool{
+        height: 5.5vw;
+    }
+    .logo-text-hat p{
+        font-size: 12vw;
+        margin-top: -1.2vw;
+    }
+    .light,.en-ru{
+        width: 8vw;
+    }
+}
+
+@media only screen and (min-device-width: 720px) and (max-device-height: 576px){
+    .hat,.InFooterPool{
+        height: 5.5vw;
+    }
+    .logo-img-hat,.logo-settings{
+        width: 5vw;
+    }
+    .InHatPool,.InFooterPool{
+        height: 5vw;
+    }
+    .logo-text-hat p{
+        font-size: 5vw;
+        margin-top: -0.5vw;
+    }
+    .light,.en-ru{
+        width: 8vw;
+    }
+}
+

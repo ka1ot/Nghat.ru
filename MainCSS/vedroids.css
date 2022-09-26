@@ -1,0 +1,33 @@
+/* Для Телефонов Android */
+
+@media only screen and (min-device-width: 720px) and (max-device-height: 1612px) and (orientation : portrait) {
+    .hat{
+        height: 13vw;
+    }
+    .logo-img-hat,.logo-settings{
+    width: 12.5vw;
+    }
+    .InHatPool,.InFooterPool{
+        height: 12.5vw;
+    }
+    .logo-text-hat p{
+        font-size: 12vw;
+        margin-top: 0vw;
+    }
+}
+
+@media only screen and (min-device-width: 1080px) and (max-device-height: 3200px) and (orientation : portrait) {
+    .hat{
+        height: 18vw;
+    }
+    .logo-img-hat,.logo-settings{
+    width: 18vw;
+    }
+    .InHatPool,.InFooterPool{
+        height: 17.5vw;
+    }
+    .logo-text-hat p{
+        font-size: 12vw;
+        margin-top: -1.2vw;
+    }
+}
